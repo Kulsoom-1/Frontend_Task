@@ -16,6 +16,9 @@ import DeviceItem from './DeviceItem';
 const HomeScreen = (props) => {
   const dispatch = useDispatch();
   const [toggle, setToggle] = useState('devices');
+
+  //copied it beacuse I was unable to start the server
+  //but I implemented everything related to that
   const data = toggle == 'devices' ? [
     {
       "type":"lock",
